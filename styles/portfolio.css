@@ -1,0 +1,13 @@
+body {
+ background-image: src="images/jg-5.jpg";
+}
+h1 {
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+ p {
+     color:black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: normal;
+ }
