@@ -1,5 +1,5 @@
 :root {
---background-image: url(images/jg-5.jpg);
+--secondary-color:black;
 --branding-color:#6c63ff;
 --heading-font-family:'Playfair Display', serif;
 --default-font-family: 'Poppins', sans-serif;
@@ -12,7 +12,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color:black;
+    color:white;
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
@@ -20,13 +20,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 96px;
 }
+h2 {
+    font-size: 15px;
+    color:black;
+}
 
  p {
    font-weight: normal;
+   font-size: 30px;
+
+   font-weight: normal;
+   
  }
 
  .hero {
-    background-image: var(--background-image);
+    background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
  }
@@ -35,6 +43,7 @@ h1 {
   font-size: 24px;
   font-weight: normal;
   margin: 0;
+  color: white;
   
   }
 
@@ -43,7 +52,11 @@ h1 {
       font-weight: bold;
       line-height: 2;
       font-size: 36px;
-      color: #272142;
+      color:white;
+  }
+
+  .project-info {
+      text-align: center;
   }
 
   .btn-branding {
@@ -53,4 +66,41 @@ h1 {
       font-size: 18px;
       line-height: 30px;
       padding:15px 30px;
+  }
+
+
+  .btn-branding-outline {
+      color:var(--branding-color);
+      border: 1px solid var(--branding-color);
+      border-radius: 4px;
+      font-size: 18px;
+      line-height: 15px;
+      padding:5px 10px 5px 10px;
+      
+      
+  }
+
+  img {
+    display: block;
+    text-align: center;
+    margin:auto;
+    
+  }  
+
+  @media (max-width: 800px) {
+        h1 {
+          font-size: 42px;
+      }
+
+       .hero h2 {
+          font-size: 22px;
+      }
+        
+        .hero p {
+            font-size: 18px;
+        }
+    .project-info {
+        padding: 0;
+        text-align: center;
+    }
   }
