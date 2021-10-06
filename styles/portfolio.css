@@ -24,7 +24,9 @@ h2 {
     font-size: 15px;
     color:black;
 }
-
+ h3 {
+     color:black;
+ }
  p {
    font-weight: normal;
    font-size: 30px;
@@ -55,29 +57,43 @@ h2 {
       color:white;
   }
 
-  .about-section {
-      padding: 160px 20px;
+  .content {
+      padding:160px 20px;
       text-align: center;
+      margin: 30px;
   }
 
-.about-section h1 {
+.content h1 {
 font-size: 64px;
 line-height: 80px;
 color: black;
 }
 
-.about-section h2 {
-    font-size: 20px;
+.content h2 {
+     font-size: 20px;
     font-family: var(--default-font-family);
     }
 
-    .about-section p {
+    .content-container p {
         font-size: 16px;
+       
+    }
+    
+    
+    .content h3 {
+        font-size: 24px;
+        line-height: 1;
+        margin:20px 0 0;
+        font-family: var(--default-font-family);
     }
 
-    .about-section-content {
-     margin: 30px;
-    }
+     .content p {
+         font-size: 14px;
+         
+     }
+     .content {
+      margin: 30px;
+     }
 
   .project-info {
       text-align: center;
