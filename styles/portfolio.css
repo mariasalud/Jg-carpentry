@@ -141,6 +141,10 @@ color: black;
     margin:auto;
    }  
 
+.img-jorge {
+padding-top: 175px;
+}
+
 footer .contact-box {
     background: var(--secondary-color);
     color:white;
